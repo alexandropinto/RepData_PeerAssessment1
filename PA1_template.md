@@ -124,7 +124,7 @@ comp.mean<-((step.mean.imputed/step.mean)-1)*100
 comp.median<-((step.median.imputed/step.median)-1)*100
 ```
 
-On avarage, the number of steps/day in the imputed dataset is ##15.0943396## great than original dataset.
+On avarage, the number of steps/day in the imputed dataset is **15.0943396** % great than original dataset.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
