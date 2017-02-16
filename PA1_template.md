@@ -65,8 +65,9 @@ p+geom_line(color="royalblue4") + ggtitle("Avarage Step by 5 minute interval") +
 ### Maximum value
 maximun<-max(avarage.step.interval$avg.step)
 max.interval<-avarage.step.interval[(avarage.step.interval$avg.step==maximun),]
+mi<-max.interval[,1]
 ```
-The five-minute interval, on average across all the days in the data set, containing the maximum number of steps is **835, 206.1698113.**
+The five-minute interval, on average across all the days in the data set, containing the maximum number of steps is **835.**
 
 
 ## Imputing missing values
